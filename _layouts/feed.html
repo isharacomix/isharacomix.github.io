@@ -11,13 +11,13 @@
    <email>ishara@isharacomix.org</email>
  </author>
 
- {% for post in site.tags[page.target] limit: 5 %}
+ {% for page in site.data.pages limit: 5 %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://isharacomix.org{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://isharacomix.org{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>{{ page.name }}</title>
+   <link href="{{ page.type }}s/{{ page.shortname }}"/>
+   <updated>{{ page.date | date_to_xmlschema }}</updated>
+   <id>{{ page.type }}s/{{page.shortname}}</id>
+   <content type="html"></content>
  </entry>
  {% endfor %}
  
