@@ -205,7 +205,7 @@ var DEBUG_WINDOWING = false;
 window.onload = function () {
     windowingInitialize();
     $.ajax("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
-      { "success": function() {start($("#mainCanvas"),data);}}
+      { "success": function(data,s,x) {start($("#mainCanvas"),data);}}
     );
 };
 </script>
