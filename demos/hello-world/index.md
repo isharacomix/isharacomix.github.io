@@ -203,11 +203,10 @@ date: 2015-01-01
 var DEBUG_MESSAGES = false;
 var DEBUG_WINDOWING = false;
 window.onload = function () {
-windowingInitialize();
-$.ajax("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
-  { "success": function() {start($("#mainCanvas"),data);
-  }
-});
+  windowingInitialize();
+  $.ajax("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
+    { "success": function() {start($("#mainCanvas"),data);});
+  };
 </script>
 
 Way
