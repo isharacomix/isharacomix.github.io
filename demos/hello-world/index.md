@@ -204,7 +204,7 @@ var DEBUG_MESSAGES = false;
 var DEBUG_WINDOWING = false;
 window.onload = function () {
     windowingInitialize();
-    load("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
+    $.load("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
        function(data,s,x) {start($("#mainCanvas"),data);}
     );
 };
