@@ -26,6 +26,14 @@ date: 2015-01-01
 <span id="port_title">Online</span>
 </div>
 </div>
+ <div id="terminal" class="window">
+<div id="terminal_output"/>
+<div class="button_rack">
+<button id="terminal_clear_button" class="left">Clear Messages</button>
+<button id="terminal_close_button" class="right">Close Terminal</button>
+</div>
+</div>
+
 
  <script type="text/javascript">
 var DEBUG_MESSAGES = false;
