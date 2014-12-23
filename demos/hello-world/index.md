@@ -212,7 +212,7 @@ xhr.overrideMimeType('text/plain; charset=x-user-defined')
 
 xhr.onload = function(e) {
   if (this.status == 200) {
-    start($("#mainCanvas"), this.response);
+    start(document.getElementById("mainCanvas"), this.response);
   }
 };
 
