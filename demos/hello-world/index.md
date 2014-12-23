@@ -207,6 +207,7 @@ window.onload = function () {
 
 var xhr = new XMLHttpRequest();
 xhr.open('GET', "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb", true);
+xhr.overrideMimeType('text/plain; charset=x-user-defined')
 //xhr.responseType = 'arraybuffer';
 
 xhr.onload = function(e) {
