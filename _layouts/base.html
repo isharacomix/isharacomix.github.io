@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>IsharaComix | {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="description" content="Barry's Blog" />
+        <meta name="author" content="Barry Peddycord III">
+        
+        <link rel="stylesheet" href="{{site.baseurl}}css/bootstrap.css">
+        <link rel="stylesheet" href="{{site.baseurl}}css/bootstrap-theme.css">
+        <link rel="stylesheet" href="{{site.baseurl}}css/font-awesome.css">
+        <script src="{{ site.baseurl }}js/colors.js"></script>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="alternate" title="Blog Feed" href="http://isharacomix.org/feed" type="application/rss+xml">
+        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" /> 
+        <link rel="openid2.local_id" href="http://www.google.com/profiles/109698223232106496867" />
+    </head>
+
+
+    <body>
+        {% if page.title != "Home" %}
+        <div class="navbar navbar-fixed-top" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="{{ site.baseurl }}" class="pull-right"><i class="fa fa-home fa-3x" title="Home" alt="home"></i></a></li>
+            </ul>
+        </div>
+        {% endif %}
+    
+        <div class="container">
+            <div class="row">
+                {{ content }}
+            </div>
+        </div>
+
+        <script src="{{site.baseurl}}js/jquery-1.9.1.min.js"></script>
+        <script src="{{site.baseurl}}js/bootstrap.js"></script>
+        <script charset="utf-8" src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </body>
+</html>
