@@ -1,3 +1,4 @@
 markdown: kramdown
 repo: https://github.com/isharacomix/newsite/
 branch: gh-pages
+baseurl: http://isharacomix.org/newsite/

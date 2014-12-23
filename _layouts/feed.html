@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>{{ page.title }}</title>
- <link href="http://isharacomix.org/feed" rel="self"/>
- <link href="http://isharacomix.org/"/>
+ <link href="{{site.baseurl}}feed" rel="self"/>
+ <link href="{{site.baseurl}}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{site.baseurl}}</id>
  <author>
@@ -11,12 +11,12 @@
    <email>ishara@isharacomix.org</email>
  </author>
 
- {% for page in site.data.pages limit: 5 %}
+ {% for page in site.data.pages limit: 20 %}
  <entry>
    <title>{{ page.name }}</title>
-   <link href="{{ page.type }}s/{{ page.shortname }}"/>
+   <link href="{{site.baseurl}}{{ page.type }}s/{{ page.shortname }}"/>
    <updated>{{ page.date | date_to_xmlschema }}</updated>
-   <id>{{ page.type }}s/{{page.shortname}}</id>
+   <id>{{site.baseurl}}{{ page.type }}s/{{page.shortname}}</id>
    <content type="html"></content>
  </entry>
  {% endfor %}
