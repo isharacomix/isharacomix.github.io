@@ -205,7 +205,7 @@ var DEBUG_WINDOWING = false;
 window.onload = function () {
     windowingInitialize();
     $.ajax( {
-      url: {{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
+      url: "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
       data: { format: 'blob' },
       success: function(data) {start($("#mainCanvas"),data);},
       type: "GET"
