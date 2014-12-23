@@ -1,3 +1,8 @@
+---
+layout: base
+title: About
+---
+
 
 About this site
 ===============
