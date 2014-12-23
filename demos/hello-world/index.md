@@ -204,9 +204,12 @@ var DEBUG_MESSAGES = false;
 var DEBUG_WINDOWING = false;
 window.onload = function () {
     windowingInitialize();
-    $.load("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
-       function(data,s,x) {start($("#mainCanvas"),data);}
-    );
+    $.ajax( {
+      url: {{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
+      data: { format: 'blob' },
+      success: function(data) {start($("#mainCanvas"),data);},
+      type: "GET"
+    });
 };
 </script>
 
