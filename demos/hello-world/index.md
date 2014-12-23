@@ -21,7 +21,7 @@ date: 2015-01-01
 
 <div id="GameBoy" class="window">
 <div id="gfx">
-<canvas id="mainCanvas"/>
+<canvas id="mainCanvas"></canvas>
 <span id="title">GameBoy</span>
 <span id="port_title">Online</span>
 </div>
@@ -32,6 +32,7 @@ var DEBUG_MESSAGES = false;
 var DEBUG_WINDOWING = false;
 window.onload = function () {
 windowingInitialize();
+start($("#mainCanvas"),"{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb");
 }
 </script>
 
