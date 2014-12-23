@@ -8,7 +8,7 @@ layout: base
 {% for p in site.data.pages %}
   {% if p.type == page.type %}
   <div class="panel panel-default">
-    <a href="{{ p.type }}s/{{p.shortname}}">{{p.name}}</a>
+    <a href="{{p.shortname}}">{{p.name}}</a>
   </div>
   {% endif %}
 {% endfor %}
