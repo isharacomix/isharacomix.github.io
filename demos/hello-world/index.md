@@ -211,7 +211,7 @@ xhr.responseType = 'arraybuffer';
 
 xhr.onload = function(e) {
   if (this.status == 200) {
-    start($("#mainCanvas"),new Uint8Array(this.response));
+    start($("#mainCanvas"), this.response);
   }
 };
 
