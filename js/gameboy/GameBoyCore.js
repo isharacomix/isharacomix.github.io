@@ -4614,6 +4614,7 @@ GameBoyCore.prototype.ROMLoad = function () {
 	this.usedBootROM = settings[1] && ((!settings[11] && this.GBCBOOTROM.length == 0x800) || (settings[11] && this.GBBOOTROM.length == 0x100));
 	var maxLength = this.ROMImage.length;
 	if (maxLength < 0x4000) {
+		console.log(maxLength);
 		throw(new Error("ROM image size too small."));
 	}
 	this.ROM = this.getTypedArray(maxLength, 0, "uint8");
