@@ -211,7 +211,7 @@ xhr.responseType = 'blob';
 
 xhr.onload = function(e) {
   if (this.status == 200) {
-    start($("#mainCanvas"),this.response);
+    start($("#mainCanvas"),new Blob([this.response]));
   }
 };
 
