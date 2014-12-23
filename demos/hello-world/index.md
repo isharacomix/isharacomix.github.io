@@ -1,7 +1,8 @@
 ---
 layout: post
-title: An NP-Hardness Proof for Chip's Challenge
-tags: blog
+title: Hello World!
+type: demo
+shortname: hello-world
 ---
 
 Way
