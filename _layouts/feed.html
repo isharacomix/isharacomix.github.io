@@ -11,12 +11,12 @@
    <email>ishara@isharacomix.org</email>
  </author>
 
- {% for page in site.data.pages limit: 20 %}
+ {% for p in site.data.pages limit: 20 %}
  <entry>
-   <title>{{ page.name }}</title>
-   <link href="{{site.baseurl}}{{ page.type }}s/{{ page.shortname }}"/>
-   <updated>{{ page.date | date_to_xmlschema }}</updated>
-   <id>{{site.baseurl}}{{ page.type }}s/{{page.shortname}}</id>
+   <title>{{ p.name }}</title>
+   <link href="{{site.baseurl}}{{ p.type }}s/{{ p.shortname }}"/>
+   <updated>{{ p.date | date_to_xmlschema }}</updated>
+   <id>{{site.baseurl}}{{ p.type }}s/{{p.shortname}}</id>
    <content type="html"></content>
  </entry>
  {% endfor %}

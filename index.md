@@ -3,14 +3,18 @@ layout: base
 title: Home
 ---
 
-<div class="col-md-8 col-md-push-2 col-sm-12">
-<div class="row">
+Hello World
+===========
+Welcome to my interactive blog and or workshop.
 
-{% for page in site.data.pages %}
+
+Newest Content
+==============
+{% for p in site.data.pages limit:5 %}
+  {% if p.type == page.type %}
   <div class="panel panel-default">
-    <a href="{{ page.type }}s/{{page.shortname}}">{{page.name}}</a>
+    <a href="{{p.type}}s/{{p.shortname}}">{{p.name}}</a>
   </div>
+  {% endif %}
 {% endfor %}
-
-</div>
 
