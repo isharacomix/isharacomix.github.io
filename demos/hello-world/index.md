@@ -199,16 +199,23 @@ date: 2015-01-01
 <li id="view_fullscreen">Fullscreen Mode</li>
 </ul>
 
- <script type="text/javascript">
+<script type="text/javascript">
 var DEBUG_MESSAGES = false;
 var DEBUG_WINDOWING = false;
 window.onload = function () {
     windowingInitialize();
-    $.ajax( {
-      url: "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb",
-      success: function(data) {start($("#mainCanvas"),data);},
-      type: "GET"
-    });
+
+var xhr = new XMLHttpRequest();
+xhr.open('GET', "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb", true);
+xhr.responseType = 'blob';
+
+xhr.onload = function(e) {
+  if (this.status == 200) {
+    start($("#mainCanvas"),this.response);
+  }
+};
+
+xhr.send();
 };
 </script>
 
