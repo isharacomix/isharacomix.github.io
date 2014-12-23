@@ -6,17 +6,17 @@ shortname: hello-world
 date: 2015-01-01
 ---
 
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/windowStack.js" ></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/terminal.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/gui.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/base64.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/json2.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/swfobject.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/resampler.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/XAudioServer.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/other/resize.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/GameBoyCore.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}gameboy/GameBoyIO.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/windowStack.js" ></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/terminal.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/gui.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/base64.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/json2.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/swfobject.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/resampler.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/XAudioServer.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/other/resize.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/GameBoyCore.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}js/gameboy/GameBoyIO.js"></script>
 
 
 <div id="GameBoy" class="window">
