@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<div class="col-md-8 col-md-push-2 col-sm-12">
+<div class="row">
+
+{% for p in site.data.pages %}
+  {% if p.type == page.type %}
+  <div class="panel panel-default">
+    <a href="{{ page.type }}s/{{page.shortname}}">{{page.name}}</a>
+  </div>
+  {% endif %}
+{% endfor %}
+
+</div>
+
