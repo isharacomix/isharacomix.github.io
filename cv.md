@@ -1,4 +1,7 @@
-
+---
+layout: base
+title: About
+---
 
 Education
 ---------
