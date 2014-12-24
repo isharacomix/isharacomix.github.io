@@ -2,6 +2,8 @@
 layout: post
 title: Hello World!
 type: demo
+engine: gb
+rom: hello.gb
 shortname: hello-world
 date: 2015-01-01
 ---
@@ -33,7 +35,7 @@ window.onload = function () {
     windowingInitialize();
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb", true);
+xhr.open('GET', "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/{{page.rom}}", true);
 xhr.overrideMimeType('text/plain; charset=x-user-defined')
 
 xhr.onload = function(e) {
