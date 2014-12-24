@@ -23,7 +23,7 @@ date: 2015-01-01
 
 <div id="GameBoy" class="window">
 <div id="gfx">
-<canvas id="mainCanvas"/>
+<canvas tabindex="0" id="mainCanvas"/>
 </div>
 </div>
 
