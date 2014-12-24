@@ -20,7 +20,7 @@ var settings = [						//Some settings.
 ];
 function start(canvas, ROM) {
 	clearLastEmulation();
-	autoSave();	//If we are about to load a new game, then save the last one...
+	//autoSave();	//If we are about to load a new game, then save the last one...
 	gameboy = new GameBoyCore(canvas, ROM);
 	gameboy.openMBC = openSRAM;
 	gameboy.openRTC = openRTC;

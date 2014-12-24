@@ -20,21 +20,11 @@ date: 2015-01-01
 
 
 <div id="GameBoy" class="window">
-<div class="menubar">
-<span id="GameBoy_file_menu">File</span>
-<span id="GameBoy_settings_menu">Settings</span>
-<span id="GameBoy_view_menu">View</span>
-<span id="GameBoy_about_menu">About</span>
-</div>
 <div id="gfx">
 <canvas id="mainCanvas"/>
-<span id="title">GameBoy</span>
-<span id="port_title">Online</span>
 </div>
 </div>
-<div id="terminal" class="window">
-<div id="terminal_output"/>
-</div>
+
 
 <script type="text/javascript">
 var DEBUG_MESSAGES = false;
@@ -45,7 +35,6 @@ window.onload = function () {
 var xhr = new XMLHttpRequest();
 xhr.open('GET', "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/hello.gb", true);
 xhr.overrideMimeType('text/plain; charset=x-user-defined')
-//xhr.responseType = 'arraybuffer';
 
 xhr.onload = function(e) {
   if (this.status == 200) {
