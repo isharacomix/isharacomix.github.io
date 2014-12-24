@@ -324,6 +324,7 @@ function registerGUIEvents() {
 function keyDown(event) {
 	var keyCode = event.keyCode;
 	var keyMapLength = keyZones.length;
+	console.log("test");
 	for (var keyMapIndex = 0; keyMapIndex < keyMapLength; ++keyMapIndex) {
 		var keyCheck = keyZones[keyMapIndex];
 		var keysMapped = keyCheck[1];
