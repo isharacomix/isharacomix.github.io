@@ -34,7 +34,7 @@ function windowingInitialize() {
 		cout("Fatal windowing error: \"" + error.message + "\" file:" + error.fileName + " line: " + error.lineNumber, 2);
 	}
 	//Update the settings to the emulator's default:
-	document.getElementById("enable_sound").checked = settings[0];
+	/*document.getElementById("enable_sound").checked = settings[0];
 	document.getElementById("enable_gbc_bios").checked = settings[1];
 	document.getElementById("disable_colors").checked = settings[2];
 	document.getElementById("rom_only_override").checked = settings[9];
@@ -48,7 +48,7 @@ function windowingInitialize() {
     document.getElementById("channel1").checked = settings[14][0];
     document.getElementById("channel2").checked = settings[14][1];
     document.getElementById("channel3").checked = settings[14][2];
-    document.getElementById("channel4").checked = settings[14][3];
+    document.getElementById("channel4").checked = settings[14][3];*/
 }
 function registerGUIEvents() {
 	cout("In registerGUIEvents() : Registering GUI Events.", -1);
@@ -157,7 +157,7 @@ function registerGUIEvents() {
 						catch (error) {
 							alert(error.message + " file: " + error.fileName + " line: " + error.lineNumber);
 						}
-						
+
 					}
 				}
 				else {
@@ -209,7 +209,7 @@ function registerGUIEvents() {
 						catch (error) {
 							alert(error.message + " file: " + error.fileName + " line: " + error.lineNumber);
 						}
-						
+
 					}
 				}
 				else {
@@ -631,7 +631,7 @@ function mouseEnterVerify(oElement, event) {
 	return !isDescendantOf(oElement, (typeof event.target != "undefined") ? event.target : event.srcElement) && isDescendantOf(oElement, (typeof event.relatedTarget != "undefined") ? event.relatedTarget : event.fromElement);
 }
 function addEvent(sEvent, oElement, fListener) {
-	try {	
+	try {
 		oElement.addEventListener(sEvent, fListener, false);
 		cout("In addEvent() : Standard addEventListener() called to add a(n) \"" + sEvent + "\" event.", -1);
 	}
@@ -641,7 +641,7 @@ function addEvent(sEvent, oElement, fListener) {
 	}
 }
 function removeEvent(sEvent, oElement, fListener) {
-	try {	
+	try {
 		oElement.removeEventListener(sEvent, fListener, false);
 		cout("In removeEvent() : Standard removeEventListener() called to remove a(n) \"" + sEvent + "\" event.", -1);
 	}
