@@ -5,10 +5,10 @@ title: About
 
 Barry Peddycord III
 ===================
-Customer Engineer
+Customer Engineer  
 [Cumulus Networks][]  
-```@isharacomix``` on [Github][], [Twitter][]   
-Website: http://isharacomix.org
+```@isharacomix``` on [Github][], [Twitter][]  
+Website: [http://isharacomix.org][]
 
 
 Education
@@ -96,6 +96,9 @@ Awards and Recognition
  * *Upsilon Pi Epsilon* Honor Society for the Computing & Information Disciplines
  * Dean's List Six out of Six semesters, Graduation *Magna cum Laude*
 
+
+
+[http://isharacomix.org]: http://isharacomix.org
 [Github]: https://github.com/isharacomix
 [Twitter]: https://twitter.com/isharacomix
 [Cumulus Networks]: http://cumulusnetworks.com
