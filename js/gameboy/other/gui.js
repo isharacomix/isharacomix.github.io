@@ -29,6 +29,7 @@ function windowingInitialize() {
 	try {
 		//Hook the GUI controls.
 		registerGUIEvents();
+		console.log("testboom");
 	}
 	catch (error) {
 		cout("Fatal windowing error: \"" + error.message + "\" file:" + error.fileName + " line: " + error.lineNumber, 2);
