@@ -5,7 +5,10 @@ title: About
 
 Barry Peddycord III
 ===================
+Customer Engineer
+[Cumulus Networks][]  
 ```@isharacomix``` on [Github][], [Twitter][]
+Website: http://isharacomix.org
 
 
 Education
@@ -30,6 +33,11 @@ Education
 
 Employment Experience
 ---------------------
+### Customer Engineer ###
+*[Cumulus Networks][], January 2015-present*
+
+ * Just hired!
+
 
 ### Research/Teaching Assistant ###
 *[NC State University][], August 2011-December 2014*
@@ -90,6 +98,7 @@ Awards and Recognition
 
 [Github]: https://github.com/isharacomix
 [Twitter]: https://twitter.com/isharacomix
+[Cumulus Networks]: http://cumulusnetworks.com
 [NC State University]: http://ncsu.edu/
 [NSDMiner]: http://github.com/isharacomix/nsdminer
 [NC State Linux Users Group]: http://lug.ncsu.edu
