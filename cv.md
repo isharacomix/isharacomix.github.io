@@ -87,4 +87,4 @@ Awards and Recognition
 [NSDMiner]: http://github.com/isharacomix/nsdminer
 [NC State Linux Users Group]: http://lug.ncsu.edu
 [Triangle Linux Users Group]: http://trilug.org
-[Eastern NC Section of the IEEE]: http://sites.ieee.org/encs
+[IEEE Eastern NC Section]: http://sites.ieee.org/encs
