@@ -29,7 +29,6 @@ function windowingInitialize() {
 	try {
 		//Hook the GUI controls.
 		registerGUIEvents();
-		console.log("testboom");
 	}
 	catch (error) {
 		cout("Fatal windowing error: \"" + error.message + "\" file:" + error.fileName + " line: " + error.lineNumber, 2);
@@ -53,7 +52,7 @@ function windowingInitialize() {
 }
 function registerGUIEvents() {
 	cout("In registerGUIEvents() : Registering GUI Events.", -1);
-	addEvent("click", document.getElementById("terminal_clear_button"), clear_terminal);
+	/*addEvent("click", document.getElementById("terminal_clear_button"), clear_terminal);
 	addEvent("click", document.getElementById("local_storage_list_refresh_button"), refreshStorageListing);
 	addEvent("click", document.getElementById("terminal_close_button"), function () { windowStacks[1].hide() });
 	addEvent("click", document.getElementById("about_close_button"), function () { windowStacks[2].hide() });
@@ -68,7 +67,7 @@ function registerGUIEvents() {
 	addEvent("click", document.getElementById("GameBoy_settings_menu"), function () { windowStacks[3].show() });
 	addEvent("click", document.getElementById("local_storage_list_menu"), function () { refreshStorageListing(); windowStacks[7].show(); });
 	addEvent("click", document.getElementById("freeze_list_menu"), function () { refreshFreezeListing(); windowStacks[8].show(); });
-	addEvent("click", document.getElementById("view_importer"), function () { windowStacks[9].show() });
+	addEvent("click", document.getElementById("view_importer"), function () { windowStacks[9].show() });*/
 	addEvent("keydown", document, keyDown);
 	addEvent("keyup", document,  function (event) {
 		if (event.keyCode == 27) {
@@ -82,7 +81,7 @@ function registerGUIEvents() {
 	});
 	addEvent("MozOrientation", window, GameBoyGyroSignalHandler);
 	addEvent("deviceorientation", window, GameBoyGyroSignalHandler);
-	new popupMenu(document.getElementById("GameBoy_file_menu"), document.getElementById("GameBoy_file_popup"));
+	/*new popupMenu(document.getElementById("GameBoy_file_menu"), document.getElementById("GameBoy_file_popup"));
 	addEvent("click", document.getElementById("data_uri_clicker"), function () {
 		var datauri = prompt("Please input the ROM image's Base 64 Encoded Text:", "");
 		if (datauri != null && datauri.length > 0) {
@@ -320,7 +319,7 @@ function registerGUIEvents() {
 	addEvent("resize", window, initNewCanvasSize);
 	addEvent("unload", window, function () {
 		autoSave();
-	});
+	});*/
 }
 function keyDown(event) {
 	var keyCode = event.keyCode;
