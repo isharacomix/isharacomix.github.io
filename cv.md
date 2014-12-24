@@ -2,17 +2,24 @@
 
 Education
 ---------
-
 ### Master of Science in Computer Science ###
 *August 2011-May 2013*
+
+ * Focus in network security with electives in artificial intelligence, compilers, and theory
+ * Conducted Master's research in the NC State Cyber Defense Lab and studied how to identify  service dependencies from network traffic collected from switches
+ * Attended workshops studying the Trusted Platform Module
+
 
 ### Bachelors of Science in Computer Science ###
 *August 2008-May 2011*
 
+ * Completed program in three years, *Magna cum Laude*, Dean's list each semester.
+ * Focus in Computer Science with electives in networking and security.
+ * Senior design project: developed a real-time operating system in C on a PIC Microcontroller to interface with a Java-powered microntroller for a robot. Developed a high-level Java API that sends commands over UART to control the robot.
+
 
 Employment Experience
 ---------------------
-
 ### Research/Teaching Assistant at NC State University ###
 *August 2011-December 2014*
 
@@ -36,7 +43,7 @@ Skills
  * Substantial programming experience with Python, C/C++, Java
  * Moderate programming experience with Ruby, PHP, Javascript
  * Web-programming experience with Django and Ruby on Rails, utilizing Bootstrap and Jquery
- * Familiarity with version control, specifically Git and SVN
+ * Substantial experience with version control, specifically Git and SVN, including practices such as branching and merging
  * Familiarity with testing tools and frameworks such as JUnit and Python's unittest and coverage.py
 
 ### Operating Systems ###
@@ -44,11 +51,17 @@ Skills
  * Familiarity with Platform-as-a-service such as Google App Engine and Red Hat Openshift
  * Run a Digital Ocean VPS to experiment with sysadmin tools
 
-### ###
-
 ### Esoteric ###
  * Technician-Class Amateur Radio Licensee (KK4DDO)
  * Familiar with writing 6502 and Z80 assembly code for the Nintendo Entertainment System and Game Boy
+
+
+Awards and Recognition
+----------------------
+ * Outstanding Teaching Assistant Award (two years in a row)
+ * Certificate of Accomplishment in Teaching
+ * *Upsilon Pi Epsilon* Honor Society for the Computing & Information Disciplines
+ * Dean's List Six out of Six semesters, Graduation *Magna cum Laude*
 
 
 [NSDMiner]: http://github.com/isharacomix/nsdminer
