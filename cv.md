@@ -7,7 +7,7 @@ Education
 ---------
 
 ### Master of Science in Computer Science ###
-*August 2011-May 2013*
+*North Carolina State University, August 2011-May 2013*
 
  * Focus in network security with electives in artificial intelligence, compilers, and theory
  * Conducted Master's research in the NC State Cyber Defense Lab and studied how to identify  service dependencies from network traffic collected from switches
@@ -15,7 +15,7 @@ Education
 
 
 ### Bachelors of Science in Computer Science ###
-*August 2008-May 2011*
+*North Carolina State University, August 2008-May 2011*
 
  * Completed program in three years, *Magna cum Laude*, Dean's list each semester.
  * Focus in Computer Science with electives in networking and security.
@@ -25,8 +25,8 @@ Education
 Employment Experience
 ---------------------
 
-### Research/Teaching Assistant at NC State University ###
-*August 2011-December 2014*
+### Research/Teaching Assistant ###
+*NC State University, August 2011-December 2014*
 
  * Conducted original research in the fields of network analytics and educational data mining. Published and presented papers at high-quality, peer-reviewed conferences, including two papers as lead author.
  * Rewrote the [NSDMiner][] tool for identifying network dependencies in Python and worked with the office of technology transfer to have it released as open source
