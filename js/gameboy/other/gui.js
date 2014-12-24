@@ -70,14 +70,14 @@ function registerGUIEvents() {
 	addEvent("click", document.getElementById("view_importer"), function () { windowStacks[9].show() });*/
 	addEvent("keydown", document, keyDown);
 	addEvent("keyup", document,  function (event) {
-		if (event.keyCode == 27) {
+		/*if (event.keyCode == 27) {
 			//Fullscreen on/off
 			fullscreenPlayer();
 		}
 		else {
 			//Control keys / other
 			keyUp(event);
-		}
+		}*/
 	});
 	addEvent("MozOrientation", window, GameBoyGyroSignalHandler);
 	addEvent("deviceorientation", window, GameBoyGyroSignalHandler);
@@ -324,7 +324,6 @@ function registerGUIEvents() {
 function keyDown(event) {
 	var keyCode = event.keyCode;
 	var keyMapLength = keyZones.length;
-	console.log("test");
 	for (var keyMapIndex = 0; keyMapIndex < keyMapLength; ++keyMapIndex) {
 		var keyCheck = keyZones[keyMapIndex];
 		var keysMapped = keyCheck[1];
