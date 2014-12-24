@@ -33,6 +33,7 @@ Education
 
 Employment Experience
 ---------------------
+
 ### Customer Engineer ###
 *[Cumulus Networks][], January 2015-present*
 
