@@ -39,14 +39,14 @@ Employment Experience
 Professional Service
 --------------------
 
-### [Triangle Linux Users Group][] ###
- * TriLUG is a local community of developers, sysadmins, and tech enthusiasts in the RDU region.
+### Triangle Linux Users Group ###
+ * [TriLUG][] is a local community of developers, sysadmins, and tech enthusiasts in the RDU region.
  * Currently serving as chair of the TriLUG Steering Committee since May 2013, responsible for delegating tasks to the rest of the steering committee.
  * Served on the steering committee as PR Officer from May 2012 to May 2013.
  * Acted as liaison between TriLUG and the [NC State Linux Users Group][].
 
-### [IEEE Eastern NC Section][] ###
- * The Eastern NC section is the one of the largest geographical sections of the IEEE in the United States with over 3000 members across the electrical engineering disciplines.
+### IEEE Eastern NC Section ###
+ * The [Eastern NC section of the IEEE][] is the one of the largest geographical sections of the IEEE in the United States with over 3000 members across the electrical engineering disciplines.
  * Served as Secretary of the ENCS between January 2012 and December 2014, during which I revived and managed the monthly newsletter to the section.
  * Migrated the section from a manually updated website to a Wordpress blog and conducted training for volunteers to assist in producing content.
 
@@ -86,5 +86,5 @@ Awards and Recognition
 [NC State University]: http://ncsu.edu/
 [NSDMiner]: http://github.com/isharacomix/nsdminer
 [NC State Linux Users Group]: http://lug.ncsu.edu
-[Triangle Linux Users Group]: http://trilug.org
-[IEEE Eastern NC Section]: http://sites.ieee.org/encs
+[TriLUG]: http://trilug.org
+[Eastern NC Section of the IEEE]: http://sites.ieee.org/encs
