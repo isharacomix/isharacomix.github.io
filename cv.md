@@ -60,11 +60,11 @@ Skills
 ------
 
 ### Programming & Development ###
- * Substantial programming experience with Python, C/C++, Java
- * Moderate programming experience with Ruby, PHP, Javascript
+ * Extensive experience with Python, C/C++, Java
+ * Moderate experience with Ruby, PHP, Javascript
  * Web-programming experience with Django and Ruby on Rails, utilizing Bootstrap and Jquery
- * Substantial experience with version control, specifically Git and SVN, including practices such as branching and merging
- * Familiarity with testing tools and frameworks such as JUnit and Python's unittest and coverage.py
+ * Experience with version control tools and practices, such as branching and merging projects with Git
+ * Experience with testing tools such as JUnit and Python's unittest and coverage.py
 
 ### Operating Systems ###
  * Linux user since 2008
