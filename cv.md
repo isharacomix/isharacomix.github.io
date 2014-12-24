@@ -5,8 +5,8 @@ title: About
 
 Education
 ---------
-### Master of Science in Computer Science ###
 
+### Master of Science in Computer Science ###
 *August 2011-May 2013*
 
  * Focus in network security with electives in artificial intelligence, compilers, and theory
@@ -15,7 +15,6 @@ Education
 
 
 ### Bachelors of Science in Computer Science ###
-
 *August 2008-May 2011*
 
  * Completed program in three years, *Magna cum Laude*, Dean's list each semester.
@@ -25,8 +24,8 @@ Education
 
 Employment Experience
 ---------------------
-### Research/Teaching Assistant at NC State University ###
 
+### Research/Teaching Assistant at NC State University ###
 *August 2011-December 2014*
 
  * Conducted original research in the fields of network analytics and educational data mining. Published and presented papers at high-quality, peer-reviewed conferences, including two papers as lead author.
@@ -45,8 +44,8 @@ Professional Service
 
 Skills
 ------
-### Programming & Development ###
 
+### Programming & Development ###
  * Substantial programming experience with Python, C/C++, Java
  * Moderate programming experience with Ruby, PHP, Javascript
  * Web-programming experience with Django and Ruby on Rails, utilizing Bootstrap and Jquery
@@ -54,7 +53,6 @@ Skills
  * Familiarity with testing tools and frameworks such as JUnit and Python's unittest and coverage.py
 
 ### Operating Systems ###
-
  * Linux user since 2008
  * Familiarity with Platform-as-a-service such as Google App Engine and Red Hat Openshift
  * Run a Digital Ocean VPS to experiment with sysadmin tools
