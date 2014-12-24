@@ -3,6 +3,11 @@ layout: base
 title: About
 ---
 
+Barry Peddycord III
+===================
+```@isharacomix``` on [Github][], [Twitter][]
+
+
 Education
 ---------
 
@@ -83,6 +88,8 @@ Awards and Recognition
  * *Upsilon Pi Epsilon* Honor Society for the Computing & Information Disciplines
  * Dean's List Six out of Six semesters, Graduation *Magna cum Laude*
 
+[Github]: https://github.com/isharacomix
+[Twitter]: https://twitter.com/isharacomix
 [NC State University]: http://ncsu.edu/
 [NSDMiner]: http://github.com/isharacomix/nsdminer
 [NC State Linux Users Group]: http://lug.ncsu.edu
