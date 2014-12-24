@@ -38,7 +38,7 @@ Employment Experience
 Professional Service
 --------------------
  * Served in the leadership of many technical organizations including the [NCSU Linux Users Group][], the [Triangle Linux Users Group][], and the [Eastern NC Section of the IEEE][].
- * Served the NC State University community on the exec board of the Graduate Student Association, restored the activities of the Computer Science Graduate Student Association, and served two terms with the University Standing Committee on Copyright
+ * Served the NC State community on the exec board of the University Graduate Student Association, restored the activities of the Computer Science Graduate Student Association, and served two terms with the University Standing Committee on Copyright
  * Maintain an active professional network of developers, administrators, and academics local to the RDU area.
 
 
