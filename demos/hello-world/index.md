@@ -13,4 +13,4 @@ What you see in front of your eyes is no static image - this is an honest-to-goo
 
 
 
-[Game Boy][]: https://en.wikipedia.org/wiki/Game_Boy
+[Game Boy]: https://en.wikipedia.org/wiki/Game_Boy
