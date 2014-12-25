@@ -5,20 +5,17 @@ layout: base
 <div class="col-md-8 col-md-push-2 col-sm-12">
     <article>
     <h1>{{ page.title }} <small>posted <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></small></h1>
-    
+
     <div id="post">
         {{ content }}
     </div>
-    
+
     </article>
 
-    <div>
-        <a href="{{site.repo}}tree/{{site.branch}}/{{ page.type }}s/{{ page.shortname }}">The source code for this entry</a>
-    </div> 
+    
 
     <div class="well">
         <iframe src="http://ask.fm/widget/4b34673ad1e1519b55df06da44bd8682a7be122b?stylesheet=large&fgcolor=%23000000&bgcolor=%23EFEFEF&lang=1" frameborder="0" scrolling="yes" width="100%"  style="border:none;"></iframe>
     </div>
 
-</div>    
-
+</div>
