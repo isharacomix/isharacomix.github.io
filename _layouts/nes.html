@@ -53,13 +53,13 @@ layout: post
 
 
 
-<script src="{{site.baseurl}}js/dynamicaudio-min.js" type="text/javascript" charset="utf-8"></script>
-<script src="{{site.baseurl}}js/jsnes.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{site.baseurl}}js/nes/dynamicaudio-min.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{site.baseurl}}js/nes/jsnes.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
     var nes;
     $(function() {
         nes = new JSNES({
-            'swfPath': '{{site.baseurl}}js/',
+            'swfPath': '{{site.baseurl}}js/nes/',
             'ui': $('#emulator').JSNESUI("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/{{page.rom}}")
         });
     });
