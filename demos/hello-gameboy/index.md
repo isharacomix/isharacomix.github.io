@@ -1,9 +1,9 @@
 ---
 layout: gb
-title: Hello World!
+title: Hello, Game Boy!
 type: demo
 rom: hello.gb
-shortname: hello-world
+shortname: hello-gameboy
 date: 2015-01-01
 ---
 
