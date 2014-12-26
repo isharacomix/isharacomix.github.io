@@ -4,33 +4,35 @@
         <meta charset="utf-8">
         <title>IsharaComix | {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <meta name="description" content="Barry's Blog" />
         <meta name="author" content="Barry Peddycord III">
-        
+
         <link rel="stylesheet" href="{{site.baseurl}}css/bootstrap.css">
         <link rel="stylesheet" href="{{site.baseurl}}css/bootstrap-theme.css">
         <link rel="stylesheet" href="{{site.baseurl}}css/font-awesome.css">
-        
+
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
         <link rel="alternate" title="Blog Feed" href="http://isharacomix.org/feed" type="application/rss+xml">
-        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" /> 
+        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
         <link rel="openid2.local_id" href="http://www.google.com/profiles/109698223232106496867" />
     </head>
 
 
     <body>
-        {% if page.title != "Home" %}
-        <div class="navbar navbar-fixed-top" role="navigation">
-            <ul class="nav navbar-nav navbar-right">
-               <li><a href="{{ site.baseurl }}" class="pull-right"><i class="fa fa-home fa-3x" title="Home" alt="home"></i></a></li>
-            </ul>
-        </div>
-        {% endif %}
-    
         <div class="container">
             <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                  The standard Lorem Ipsum passage, used since the 1500s
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
+                </div>
+                <div class="col-md-6">
                 {{ content }}
+                </div>
             </div>
         </div>
 
