@@ -76,7 +76,7 @@ window.onload = function () {
     windowingInitialize();
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', "{{site.baseurl}}{{page.type}}s/{{page.shortname}}/{{page.rom}}", true);
+xhr.open('GET', "{{page.rom}}", true);
 xhr.overrideMimeType('text/plain; charset=x-user-defined')
 
 xhr.onload = function(e) {
