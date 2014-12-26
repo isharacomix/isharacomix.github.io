@@ -4,12 +4,18 @@ layout: base
 
 <div>
 
+<table class="table table-hover table-striped">
+
 {% for p in site.data.pages %}
   {% if p.type == page.type %}
-  <div class="panel panel-default">
-    <a href="{{p.shortname}}">{{p.name}}</a>
-  </div>
-  {% endif %}
+<tr>
+            <th><a href="{{p.shortname}}">{{ p.name }}</a></th>
+            <th><span class="date"><span class="glyphicon glyphicon-calendar"></span><time datetime="{{p.date|date:"%F"}}">{{p.date|date:"%b %d, %Y"}}</time></span></th>
+</tr>
+{% endif %}
 {% endfor %}
+
+</table>
+
 
 </div>
