@@ -22,8 +22,11 @@ Needless to say, attempting to develop a game in 6502 assembly for the first tim
 
 There were some comments on some features that would have definitely improved the game. For example, a timer that keeps track of how long your little dude has left to live as well as a button you could press to die early instead of having to wait for the full 10 seconds. However, I feel that by leaving out these convenient features, the game is more pure to the kinds of unfairly difficult games that were common on the good old NES.
 
+My game was written in a way that made it work on emulators but in a way that it would not work on real hardware. I sent my game to some expert NES hackers on a [forum][] for NES development to get some feedback on how to improve my game so that it was more authentic and got some really great feedback.
+
 
 
 [Ludum Dare]: http://ludumdare.com/
 [#8bitmooc]: http://github.com/isharacomix/8bitmooc
 [paid off]: http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=23902
+[forum]: http://forum.nesdev.com
