@@ -106,7 +106,7 @@ JSNES.prototype = {
                     self.printFps();
                 }, this.opts.fpsInterval);
 
-            $(document).
+            $("#nes-canvas").
                 bind('keydown', window.keydownevt).
                 bind('keyup', window.keyupevt).
                 bind('keypress', window.keypressevt);
@@ -206,7 +206,7 @@ JSNES.prototype = {
         this.ui.updateStatus("Paused");
         this.ui.buttons.pause.html('<i class="icon-play"></i>');
 
-        $(document).
+        $("#nes-canvas").
             unbind('keydown', window.keydownevt).
             unbind('keyup', window.keyupevt).
             unbind('keypress', window.keypressevt);
@@ -6901,7 +6901,7 @@ if (typeof jQuery !== 'undefined') {
                  * Create UI
                  */
                 self.root = $('<div></div>');
-                self.screen = $('<canvas tabindex="0" class="nes-screen" width="256" height="240"></canvas>').appendTo(self.root);
+                self.screen = $('<canvas id="nes-canvas" tabindex="0" class="nes-screen" width="256" height="240"></canvas>').appendTo(self.root);
 
                 if (!self.screen[0].getContext) {
                     parent.html("Your browser doesn't support the <code>&lt;canvas&gt;</code> tag. Try Google Chrome, Safari, Opera or Firefox!");
