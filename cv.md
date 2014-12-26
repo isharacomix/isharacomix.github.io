@@ -3,8 +3,12 @@ layout: base
 title: About
 ---
 
+Curriculum Vitae
+================
+
 Barry Peddycord III
-===================
+-------------------
+
 Customer Engineer  
 [Cumulus Networks][]  
 ```@isharacomix``` on [Github][], [Twitter][]  
