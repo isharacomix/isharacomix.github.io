@@ -81,9 +81,9 @@ Skills
  * Experience with testing tools such as JUnit and Python's unittest and coverage.py
 
 ### Operating Systems ###
- * Linux user since 2008
+ * Linux (Debian) administration including automation with shell scripting and cron jobs, site-wide and user-level installations, managing init services
+ * Moderate experience with Linux and Mac OS X file system structure
  * Familiarity with Platform-as-a-service such as Google App Engine and Red Hat Openshift
- * Run a Digital Ocean VPS to experiment with sysadmin tools
 
 ### Esoteric Knowledge ###
  * Technician-Class Amateur Radio Licensee (KK4DDO)

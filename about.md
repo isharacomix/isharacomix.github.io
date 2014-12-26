@@ -10,7 +10,7 @@ This website has been on the internet since as far back as about 2006, when it w
 
 Long-form blogs are fun, but thanks to the growing popularity of microblogging platforms and the ever-shrinking attention span of the average website visitor, I've started reconsidering the purpose of the programmer's professional website as more of a portfolio where I *show* people the kinds of things I'm working on instead of just *talking* about them.
 
-On that note, I introduce the  newest incarnation of my site as an **Interactive Blog/Open Workshop** where instead of chronologically talking about my personal feelings on any given day, I show a snapshot of some little thing I've figured out how to build with a long-form description of what it is, how it works, and what it means. For example, I've been interested in retro video game consoles for a long time, and I've been learning how to write [Nintendo Entertainment System][] and [Game Boy][] games in assembly code using open source assemblers and emulators. So in this blog, I showcase what I call **[demos][]**, which are tiny, interactive proofs of concept of the things I learn how to do. Over time, I also hope to host some full-fledged **[games][]** of my own and even some **[tutorials][]** on how to make these kinds of things yourself.
+On that note, I introduce the  newest incarnation of my site as an **Interactive Blog/Open Workshop** where instead of chronologically talking about my personal feelings on any given day, I show a snapshot of some little thing I've figured out how to build with a long-form description of what it is, how it works, and what it means. For example, I've been interested in retro video game consoles for a long time, and I've been learning how to write [Nintendo Entertainment System][] and [Game Boy][] games in assembly code using open source assemblers and emulators. So in this blog, I showcase what I call **[demos][]**, which are tiny, interactive proofs of concept of the things I learn how to do. Over time, I also hope to host some full-fledged **[games][]** of my own.
 
 About me
 ========
@@ -28,7 +28,6 @@ You can keep up with me and my nonsense on [Twitter][], [Github][], and [LinkedI
 [Game Boy]: https://en.wikipedia.org/wiki/Game_Boy
 [demos]: {{site.baseurl}}demos/
 [games]: {{site.baseurl}}games/
-[tutorials]: {{site.baseurl}}tutorials/
 [Raspberry Pi]: http://www.raspberrypi.org/
 [Arduino]: http://www.arduino.cc/
 [Twitter]: https://twitter.com/isharacomix
