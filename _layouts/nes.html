@@ -60,7 +60,7 @@ layout: post
     $(function() {
         nes = new JSNES({
             'swfPath': '{{site.baseurl}}js/',
-            'ui': $('#emulator').JSNESUI("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/{{page.rom}}")
+            'ui': document.getElementById("emulator").JSNESUI("{{site.baseurl}}{{page.type}}s/{{page.shortname}}/{{page.rom}}")
         });
     });
 </script>
