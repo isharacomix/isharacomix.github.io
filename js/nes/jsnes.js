@@ -7120,7 +7120,7 @@ if (typeof jQuery !== 'undefined') {
                 },
 
                 updateStatus: function(s) {
-                    this.status.text(s);
+                    //this.status.text(s);
                 },
 
                 setRoms: function(roms) {
