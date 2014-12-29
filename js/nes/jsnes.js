@@ -204,7 +204,7 @@ JSNES.prototype = {
         this.isRunning = false;
 
         this.ui.updateStatus("Paused");
-        this.ui.buttons.pause.html('<i class="icon-play"></i>');
+        //this.ui.buttons.pause.html('<i class="icon-play"></i>');
 
         $("#nes-canvas").
             unbind('keydown', window.keydownevt).
@@ -6910,8 +6910,8 @@ if (typeof jQuery !== 'undefined') {
                     return;
                 }
 
-                self.romContainer = $('<div class="nes-roms"></div>').appendTo(self.root);
-                //self.romSelect = $('<select></select>').appendTo(self.romContainer);
+                /*self.romContainer = $('<div class="nes-roms"></div>').appendTo(self.root);
+                self.romSelect = $('<select></select>').appendTo(self.romContainer);
 
                 self.controls = $('<div class="nes-controls"></div>').appendTo(self.root);
                 self.buttons = {
@@ -6921,6 +6921,8 @@ if (typeof jQuery !== 'undefined') {
                     zoom: $('<a href="#" class="btn nes-zoom"><i class="icon-zoom-in"></i></a>').appendTo(self.controls)
                 };
                 self.status = $('<p class="nes-status">Booting up...</p>').appendTo(self.root);
+                */
+
                 self.root.appendTo(parent);
 
                 /*
@@ -6937,12 +6939,12 @@ if (typeof jQuery !== 'undefined') {
                     if (self.nes.isRunning) {
                         self.nes.stop();
                         self.updateStatus("Paused");
-                        self.buttons.pause.html('<i class="icon-play"></i>');
+                        //self.buttons.pause.html('<i class="icon-play"></i>');
                         e.preventDefault();
                     }
                     else {
                         self.nes.start();
-                        self.buttons.pause.html('<i class="icon-pause"></i>');
+                        //self.buttons.pause.html('<i class="icon-pause"></i>');
                         e.preventDefault();
                     }
                 });
@@ -6956,11 +6958,11 @@ if (typeof jQuery !== 'undefined') {
                 self.buttons.sound.click(function(e) {
                     if (self.nes.opts.emulateSound) {
                         self.nes.opts.emulateSound = false;
-                        self.buttons.sound.html('<i class="icon-volume-up"></i>');
+                        //self.buttons.sound.html('<i class="icon-volume-up"></i>');
                     }
                     else {
                         self.nes.opts.emulateSound = true;
-                        self.buttons.sound.html('<i class="icon-volume-off"></i>');
+                        //self.buttons.sound.html('<i class="icon-volume-off"></i>');
                     }
                     e.preventDefault();
                 });
@@ -6972,7 +6974,7 @@ if (typeof jQuery !== 'undefined') {
                             width: '256px',
                             height: '240px'
                         });
-                        self.buttons.zoom.html('<i class="icon-zoom-in"></i>');
+                        //self.buttons.zoom.html('<i class="icon-zoom-in"></i>');
                         self.zoomed = false;
                     }
                     else {
@@ -6980,7 +6982,7 @@ if (typeof jQuery !== 'undefined') {
                             width: '512px',
                             height: '480px'
                         });
-                        self.buttons.zoom.html('<i class="icon-zoom-out"></i>');
+                        //self.buttons.zoom.html('<i class="icon-zoom-out"></i>');
                         self.zoomed = true;
                     }
                     e.preventDefault();
@@ -7103,17 +7105,17 @@ if (typeof jQuery !== 'undefined') {
                 enable: function() {
                     this.buttons.pause.attr("disabled", null);
                     if (this.nes.isRunning) {
-                        this.buttons.pause.html('<i class="icon-pause"></i>');
+                        //this.buttons.pause.html('<i class="icon-pause"></i>');
                     }
                     else {
-                        this.buttons.pause.html('<i class="icon-play"></i>');
+                        //this.buttons.pause.html('<i class="icon-play"></i>');
                     }
                     this.buttons.restart.attr("disabled", null);
                     if (this.nes.opts.emulateSound) {
-                        this.buttons.sound.html('<i class="icon-volume-off"></i>');
+                        //this.buttons.sound.html('<i class="icon-volume-off"></i>');
                     }
                     else {
-                        this.buttons.sound.html('<i class="icon-volume-up"></i>');
+                        //this.buttons.sound.html('<i class="icon-volume-up"></i>');
                     }
                 },
 
@@ -7123,8 +7125,8 @@ if (typeof jQuery !== 'undefined') {
 
                 setRoms: function(roms) {
                     this.romSelect.children().remove();
-                    $("<option>Select a ROM...</option>").appendTo(this.romSelect);
-                    for (var groupName in roms) {
+                    //$("<option>Select a ROM...</option>").appendTo(this.romSelect);
+                    /*for (var groupName in roms) {
                         if (roms.hasOwnProperty(groupName)) {
                             var optgroup = $('<optgroup></optgroup>').
                                 attr("label", groupName);
@@ -7135,7 +7137,7 @@ if (typeof jQuery !== 'undefined') {
                             }
                             this.romSelect.append(optgroup);
                         }
-                    }
+                    }*/
                 },
 
                 writeAudio: function(samples) {
