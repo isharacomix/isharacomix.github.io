@@ -7104,14 +7104,14 @@ if (typeof jQuery !== 'undefined') {
                  * Enable and reset UI elements
                  */
                 enable: function() {
-                    this.buttons.pause.attr("disabled", null);
+                    //this.buttons.pause.attr("disabled", null);
                     if (this.nes.isRunning) {
                         //this.buttons.pause.html('<i class="icon-pause"></i>');
                     }
                     else {
                         //this.buttons.pause.html('<i class="icon-play"></i>');
                     }
-                    this.buttons.restart.attr("disabled", null);
+                    //this.buttons.restart.attr("disabled", null);
                     if (this.nes.opts.emulateSound) {
                         //this.buttons.sound.html('<i class="icon-volume-off"></i>');
                     }
