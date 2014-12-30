@@ -11,6 +11,7 @@ layout: post
 </div>
 </div>
 <div>
+<a href="#" onclick="beginDemo();"><i class="fa fa-power-off fa-3x" title="Start demo" alt="Start demo"></i></a>
 <a href="{{site.repo}}tree/{{site.branch}}/{{ page.type }}s/{{ page.shortname }}"><i class="fa fa-github fa-3x" title="View the demo source code" alt="View the demo source code"></i></a>
 <a href="{{site.baseurl}}{{page.type}}s/{{page.shortname}}/{{page.rom}}"><i class="fa fa-download fa-3x" title="Download the ROM" alt="Download the ROM"></i></a>
 <a href="#"  data-toggle="modal" data-target="#myModal" ><i class="fa fa-info-circle fa-3x" title="Instructions" alt="Download the ROM"></i></a>
@@ -72,7 +73,7 @@ layout: post
 <script type="text/javascript">
 var DEBUG_MESSAGES = false;
 var DEBUG_WINDOWING = false;
-window.onload = function () {
+var beginDemo = function () {
     windowingInitialize();
 
 var xhr = new XMLHttpRequest();
