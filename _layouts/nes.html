@@ -61,10 +61,11 @@ layout: post
     var nes;
 
     function beginDemo() {
+        if (!nes){
         nes = new JSNES({
             'swfPath': '{{site.baseurl}}js/nes/',
             'ui': $('#emulator').JSNESUI("{{page.rom}}")
-        });
+        });}
     };
 </script>
 
