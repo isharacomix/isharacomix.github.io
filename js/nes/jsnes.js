@@ -6935,7 +6935,7 @@ if (typeof jQuery !== 'undefined') {
                 /*
                  * Buttons
                  */
-                self.buttons.pause.click(function(e) {
+                /*self.buttons.pause.click(function(e) {
                     if (self.nes.isRunning) {
                         self.nes.stop();
                         self.updateStatus("Paused");
@@ -6967,7 +6967,6 @@ if (typeof jQuery !== 'undefined') {
                     e.preventDefault();
                 });
 
-                self.zoomed = false;
                 self.buttons.zoom.click(function(e) {
                     if (self.zoomed) {
                         self.screen.animate({
@@ -6986,7 +6985,9 @@ if (typeof jQuery !== 'undefined') {
                         self.zoomed = true;
                     }
                     e.preventDefault();
-                });
+                });*/
+                self.zoomed = false;
+
 
                 /*
                  * Lightgun experiments with mouse
