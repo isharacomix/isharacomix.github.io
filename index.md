@@ -5,7 +5,7 @@ title: Home
 
 Barry Peddycord III
 ===================
-Welcome to my personal website and interactive blog! This is where I'll be putting playable projects and demos that I've made while teaching myself how to do things like make old-fashioned NES and Game Boy games.
+Welcome to my personal website and interactive blog! This is where I'll be putting playable projects and demos that I've made while teaching myself how to do things like make old-fashioned *NES* and *Game Boy* games.
 
 
 Newest Content
