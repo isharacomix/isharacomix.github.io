@@ -258,4 +258,8 @@ HELLO_MAP::
 DB $01,$02,$03,$03,$04,$00,$05,$04,$06,$03,$07,$08
 
 
+SECTION "ROM1",ROMX
+POTATO::
+DB $00
+
 ;*** End Of File ***
