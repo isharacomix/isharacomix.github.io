@@ -9,28 +9,28 @@ date: 2015-01-07
 
 As much fun as I have fiddling about with assembly programming, even the most avid of assembly fans have to admit that it's a tedious process. It takes a while to get started since you end up having to do a lot of reading just to write a tiny little bit of code - the difficulty of getting something to appear on the screen at all makes incremental *Hello Worlds* rather difficult. Yesterday, I attended the Triangle Python User Group's [project night][] and focused on what I thought was a fairly simple task: making a character move on the screen according to user input. This turned out to be a lot more difficult than I thought it would be, but diving in head-first is a very powerful learning experience in the grand scheme of things.
 
+So, in this demo, pressing left and right will scroll the message "Hello World" in the direction you press. Right now it isn't behaving very well in the Javascript emulator, but it works pretty well on desktop emulators. I'll definitely keep revisiting this one until I figure it out. :)
+
 
 User Input on the *Game Boy*
 ----------------------------
 Unlike the *NES*, which has a one-bit wide bus between the controller and the console to transfer button presses, the *Game Boy* actually has enough wires to transmit the states of four buttons each time the joypad register is read. In order to determine which four buttons are read, there are two lines that act as "filters" - when the filter is off, those are the buttons that are read.
 
-```
-        P14     P15
- P10    Right   A
- P11    Left    B
- P12    Up      Select
- P13    Down    Start
+            P14     P15
+     P10    Right   A
+     P11    Left    B
+     P12    Up      Select
+     P13    Down    Start
 
-          WWRRRR
-  $FF00 76543210
-           \\\\\\_P10: Right/A
-            \\\\\_P11: Left/B
-             \\\\_P12: Up/Select
-              \\\_P13: Down/Start
-               \\_P14: Filters D/U/L/R
-                \_P15: Filters St/Se/B/A
+              WWRRRR
+      $FF00 76543210
+               \\\\\\_P10: Right/A
+                \\\\\_P11: Left/B
+                 \\\\_P12: Up/Select
+                  \\\_P13: Down/Start
+                   \\_P14: Filters D/U/L/R
+                    \_P15: Filters St/Se/B/A
 
-```
 
 In other words, in order to read the D-pad, you set P14 to 0 and P15 to 1. (```$FF00 = %0010000```). Then you read ```$FF00``` and mask the high four bits. Note that the readings are inverted from what you might think: a 0 means the button is pressed.
 
