@@ -10,7 +10,7 @@
   -moz-border-radius: 8px;
   border-radius: 8px;
 }*/
-
+body {  padding-top: 60px; } 
 
 .btn-xl,
 .btn-group-xl > .btn {
