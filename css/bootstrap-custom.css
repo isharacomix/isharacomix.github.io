@@ -11,6 +11,10 @@
   border-radius: 8px;
 }*/
 
+#main-container {
+  margin-top: 60px;
+}
+
 .btn-xl,
 .btn-group-xl > .btn {
   padding: 18px 28px;
