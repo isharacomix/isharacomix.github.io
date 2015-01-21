@@ -29,8 +29,10 @@
                   <a href="{{site.baseurl}}"><img src="{{ site.baseurl }}ishara.png" alt="" class="img-thumbnail center-block" width="15%" /></a>
                   <h1 class="text-center">Barry Peddycord III <small>isharacomix</small></h1>
                   {% if page.title != 'Home' %}
-                  <a class="btn btn-default" href="{{ site.baseurl }}work" role="button">Work</a>
-                  <a class="btn btn-default" href="{{ site.baseurl }}service" role="button">Service</a>
+                  <div class="text-center">
+                  <a class="btn btn-default {% if page.title == 'Work' %}disabled{% endif %}" href="{{ site.baseurl }}work" role="button">Work</a>
+                  <a class="btn btn-default {% if page.title == 'Service' %}disabled{% endif %}" href="{{ site.baseurl }}service" role="button">Service</a>
+                  </div>
                   {% endif %}
                   <hr />
               </div>
