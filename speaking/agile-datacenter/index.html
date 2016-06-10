@@ -20,20 +20,28 @@ title: Virtualization and the Agile Datacenter
 </p>
 
 <p><img src="slide02.png" class="img-thumbnail center-block" alt="Slide 2" width="100%" /></p>
-<p>The motivation for this talk comes from an expression I overheard at
-    Cumulus Networks when we were trying to figure out a vision for what we're
-    selling to the world: "Web IT for all". Major players players in the technology
-    industry such as Amazon, Google, and Facebook, all have very huge
-    networks and impressive levels of uptime, something that enterprise networks
-    would love to be able to emulate. These folks want to run private or hybrid
-    clouds, they want high availability and resiliency. And then there's this
-    fancy "DevOps" thing floating around out there.
+<p>Cumulus Networks sells an operating system that runs on switch hardware, but
+    in order to be successful, a company needs to sell more than just a <em>product</em>.
+    It needs to be able to sell a <em>story</em>. When it comes to many of the
+    customers who specifically seek us out, there's a common thread in what
+    they are looking for. They've heard about what the major players in the tech
+    industry are doing in their own infrastructure and want to take that home.
+    Automation, replication, virtualization, DevOps, and so on. We don't just
+    sell the operating system, we sell a platform to enable "Web IT" for
+    anyone - big financials or media to small startups.</p>
+<p>Some people totally get our value proposition and seek us out, but plenty of
+    potential customers need some convincing that Web IT is the way to go. They
+    may have institutional inertia that is stopping them from adopting new
+    technologies and operational practices, so we need to go further and
+    show <em>how</em> these practices make those major Web IT organizations
+    successful.
 </p>
 
 <p><img src="slide03.png" class="img-thumbnail center-block" alt="Slide 3" width="100%" /></p>
 <p>I come from the world of software development. Until joining Cumulus, I didn't
-    have any knowledge of networking. So when I learned about DevOps, my mind
-    immediately fell back to software development methodologies. For those who
+    have any knowledge of networking. So when it comes to articulating the
+    benefits of Web IT over legacy IT, I find it helpful to go back to what I
+    know - software development paradigms. For those who
     aren't familiar with these, I'm talking about the
     <a href="https://en.wikipedia.org/wiki/Waterfall_model">Waterfall</a> versus
     the <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile</a>
@@ -48,38 +56,33 @@ title: Virtualization and the Agile Datacenter
     then that software project managers would adopt this mindset for developing
     software.
 </p>
-<p>However, software is fundamentally different from a traditional engineering
-    project in one way: if you screw up while building a building, you have to
-    undo the mess, try to recycle whatever capital resources you can, and
-    dispose of the rest. In software development, you're free from this
-    limitation. This means that if you figure out a better way to do something
-    halfway through the project, you don't end up "wasting" anything if you
-    start implementing it.
-</p>
-<p>It is for this reason that I say that the cost of failure in software
-    development is very low. And that's where the Agile software development
-    comes in.
+<p>However, software is fundamentally different from traditional engineering
+    projects. While oftentimes the blueprint and architectural plan is
+    sufficient to tell if the building is going to meet the customer's
+    requirements, you often don't know if a piece of software is right until
+    it's 90% finished. Unlike a building, however, it's much easier to change
+    direction when developing software since it doesn't have to be built
+    according to the laws of physics. You can replace software components
+    piecemeal, which means that it isn't necessary or even desired to plan
+    the entire project out from the beginning. The Agile method
+    takes advantage of the flexible nature of software.
 </p>
 
 <p><img src="slide04.png" class="img-thumbnail center-block" alt="Slide 4" width="100%" /></p>
-<p>The Agile development model reduces the amount of planning done up front in
-    the interest of rapid, results-driven prototyping that slowly iterates to
-    the form of a final product. Each week, the team looks at the results of
-    the last week, discusses the challenges and successes of the product,
-    and makes decisions about what needs to be done for the next iteration.
-    Instead of a hyper detailed plan made at the beginning of the project, a
-    general guiding set of requirements are used to keep the weekly iterations
-    on track. This not only makes it possible to make mistakes and learn from
-    them, it also gives the team the flexibility to adapt to changes in the
-    market or customer expectations of the product.
-</p>
-<p>In fact, failure in the waterfull method is almost a self-fulfilling prophecy!
-    The reason why there is so much planning is to avoid a failure from happening,
-    and when one happens, its so expensive because so much of the cost was
-    front-loaded. <strong>Agile accepts and embraces the inevitability of change and
-    failure by adjusting its risk model so that failure doesn't end up holding
-    back delivery.</strong>
-</p>
+<p>Most importantly, the Agile method reduces the cost of failure. During
+    development, unexpected problems can come up with the design. Maybe the
+    library or algorithms planned for the project turn out not to work very
+    well in practice. The Agile method gives developers the flexibility to prototype
+    many working solutions to see how well they peform, but also offers an
+    opportunity to to incorporate lessons learned from
+    past "failed" iterations and react to the changing landscape of the target market.</p>
+<p>The irony of it all is that people go through the planning of the Waterfall
+    method because they want to reduce the possibilities and impact of failure,
+    but it becomes a self-fulfilling prophecy when they eventually find themselves
+    painted into a corner. The paradox of Agile development (and by extension,
+    DevOps) is that allowing yourself to fail more often improves your chances
+    of success when it matters.</p>
+
 
 <p><img src="slide05.png" class="img-thumbnail center-block" alt="Slide 5" width="100%" /></p>
 <p>It's for this reason I consider "DevOps" to be the "Agile" of system administration.
@@ -94,7 +97,7 @@ title: Virtualization and the Agile Datacenter
 <p>From my interactions with network engineers, they fall squarely in the
     mindset of people in the Waterfall camp. Which makes sense - for people
     running the network, failure is not an option. Things like DevOps, taking
-    other people's abstracted source code and applying them to their "special
+    other people's abstracted source code and applying them to their "unique
     network" is extremely scary, and the overhead associated with learning
     a new tool and abstracting out infrastructure may not be worth it. However,
     these savings are lost when it comes to the time lost when manually
@@ -131,7 +134,8 @@ title: Virtualization and the Agile Datacenter
     network, even before the equipment they bought arrives at their datacenter.
     In this environment, they can learn how the tool works, make mistakes, and
     develop a complete configuration that they can port directly to their
-    production infrastructure.
+    production infrastructure. This brings rapid prototyping to a field which
+    traditionally did not have that flexibility.
 </p>
 <p>In other words, make mistakes and work out the bugs in testing so that
     deployment during scheduled downtime goes smoothly.
